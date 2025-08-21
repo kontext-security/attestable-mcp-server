@@ -1,4 +1,5 @@
 # ➡️ attestable-mcp-server
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/co-browser/attestable-mcp-server)](https://archestra.ai/mcp-catalog/co-browser__attestable-mcp-server)
 <div align="center">
 
 <strong>remotely attestable MCP server</strong>

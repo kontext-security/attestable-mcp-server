@@ -5,6 +5,10 @@ on:
   pull_request:
   workflow_dispatch:
 
+# Both jobs only check out, build and pass an artifact between them; none writes to the repository.
+permissions:
+  contents: read
+
 concurrency:
   group:
     ${{ github.workflow }}-${{ github.ref_name }}-${{
